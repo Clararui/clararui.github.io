@@ -5,9 +5,7 @@ AI 产品经理的中文个人主页，包含个人介绍、概念作品、产�
 - 网站：https://clararui.github.io/
 - 源码：https://github.com/Clararui/clararui.github.io
 
-轻量静态网站，无需安装依赖。维护源位于 `dist/`，视觉遵循 `design/DESIGN.md` 的白色画廊风格：大字号、浅灰分区、28px 圆角、克制的蓝色控件。页面没有第三方字体或脚本依赖，图片也随源码本地托管。
-
-首屏设备图为 AI 生成的概念产品展示，使用内置 imagegen 工具制作，文件位于 `dist/assets/hero-product.jpg`。生成提示词见 `design/image-prompt.txt`。案例内部的示意界面使用 HTML、CSS 和 SVG 绘制。
+轻量静态网站，无需安装依赖。维护源位于 `dist/`，所有图片效果均由本地 SVG 与 CSS 绘制，没有第三方字体、图片或脚本依赖。
 
 ## 预览
 
@@ -26,7 +24,7 @@ python3 -m http.server 4173 --directory dist --bind 127.0.0.1
 - `dist/app.js`：概念案例详情、名片下载与分享交互。
 - `dist/styles.css`：颜色、布局与手机适配。
 
-Cosmos 卡片展示外部视觉灵感产品，标题、图片和按钮均链接 https://www.cosmos.so/ 。截图为 2026-11-02 的官网首页截图，位于 `dist/assets/cosmos-homepage.png`，并非个人项目。「轻流」是明确标注的概念案例，并非真实项目经历。关于和思考部分为网站初版拟稿，可按个人表达修改。当前未提供联系邮箱。
+「知序」「轻流」是明确标注的概念案例，并非真实项目经历。关于和思考部分为网站初版拟稿，可按个人表达修改。当前未提供联系邮箱。
 
 名片下载为 vCard 格式。本地预览不会把本地地址写入名片。线上分享使用浏览器原生分享或复制链接；网站的实际可访问范围取决于托管设置。
 
