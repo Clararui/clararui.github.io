@@ -5,9 +5,9 @@ AI 产品经理的中文个人主页，包含个人介绍、概念作品、产�
 - 网站：https://clararui.github.io/
 - 源码：https://github.com/Clararui/clararui.github.io
 
-轻量静态网站，无需安装依赖。维护源位于 `dist/`。当前设计根据 `design/DESIGN.md` 的 Superr 手账风格制作：奶油纸色、可可色标题、橙色手写标记、描边按钮与纸张草稿卡片。没有第三方字体、图片或脚本的运行时依赖。
+轻量静态网站，无需安装依赖。维护源位于 `dist/`。当前设计根据 `design/DESIGN.md` 的 Superr 手账风格制作：奶油纸色、可可色标题、明亮橙色手写标记、天空蓝云朵笔记本、泡泡糖粉与嫩绿贴纸、描边按钮与纸张草稿卡片。没有第三方字体、图片或脚本的运行时依赖。
 
-主视觉 `dist/assets/field-notebook.png` 使用内置 imagegen 生成，保留透明背景；完整提示词位于 `design/image-prompt.txt`。笔记本图中的姓名与职业是图片的一部分，修改个人资料时如需同步图片，请重新生成此素材。字体使用系统 serif / 宋体与手写字体回退，不同设备字形会略有差异。
+主视觉 `dist/assets/field-notebook-blue.png` 使用内置 imagegen 编辑原始笔记本素材，保留透明背景；本轮配色提示词位于 `design/image-prompt-blue.txt`。原始棕色版本及提示词保留在 `dist/assets/field-notebook.png` 与 `design/image-prompt.txt`。笔记本图中的姓名与职业是图片的一部分，修改个人资料时如需同步图片，请重新生成此素材。字体使用系统 serif / 宋体与手写字体回退，不同设备字形会略有差异。
 
 ## 预览
 
