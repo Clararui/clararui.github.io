@@ -65,23 +65,11 @@ h1 { font-size: 80px; line-height: 1.12; letter-spacing: -1.2px; font-weight: 60
 .card-expand { position: absolute; right: 24px; bottom: 24px; width: 36px; height: 36px; background: #e8e8ed; border-radius: 50%; font-size: 27px; font-weight: 300; display: grid; place-items: center; transition: background .2s; }
 .card-expand:hover { background: #dcdce2; }
 .card-expand span { line-height: 1; transform: translateY(-1px); }
-.knowledge-visual { padding: 35px 22px 0 38px; }
-.knowledge-app { border: 1px solid #e6e6e8; border-radius: 18px; background: var(--white); padding: 20px 20px 18px; width: calc(100% + 35px); transform: perspective(1100px) rotateY(-9deg) rotateX(4deg); transform-origin: left center; }
-.app-toolbar { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 500; }
-.app-symbol { color: var(--blue); font-size: 20px; }
-.toolbar-more { margin-left: auto; color: var(--steel); font-size: 19px; }
-.app-question { font-size: 23px; font-weight: 500; letter-spacing: -.5px; text-align: center; margin-top: 23px; }
-.app-subline { text-align: center; font-size: 10px; color: var(--steel); margin: 8px 0 0; }
-.knowledge-map { width: 100%; height: 178px; position: relative; }
-.knowledge-map svg { width: 100%; height: 100%; }
-.map-label { position: absolute; font-size: 9px; background: var(--white); border-radius: 5px; padding: 5px 6px; white-space: nowrap; }
-.map-center { left: 50%; top: 50%; transform: translateX(-50%); color: var(--blue); }
-.map-one { left: 9%; top: 10%; }
-.map-two { right: 8%; top: 14%; }
-.map-three { left: 6%; bottom: 6%; }
-.map-four { right: 6%; bottom: 9%; }
-.app-input { border: 1px solid #e6e6e8; border-radius: 999px; padding: 11px 13px; color: var(--steel); font-size: 10px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.app-input span { color: var(--blue); font-size: 17px; }
+.cosmos-visual { margin: 35px 28px 0; }
+.cosmos-visual>a { display: block; border-radius: 18px; overflow: hidden; border: 1px solid #e6e6e8; }
+.cosmos-visual img { display: block; width: 100%; height: auto; }
+.cosmos-visual figcaption { display: flex; justify-content: space-between; gap: 12px; color: var(--slate); font-size: 10px; line-height: 1.5; margin-top: 12px; }
+.cosmos-card .card-expand { font-size: 22px; }
 .flow-visual { padding: 35px 38px 0; }
 .flow-app { background: var(--frost); border-radius: 20px; padding: 24px 20px; }
 .flow-app-top { display: flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 500; margin-bottom: 26px; }
@@ -165,7 +153,6 @@ body.dialog-open { overflow: hidden; }
   .feature-copy { padding: 30px 30px 0; }
   .feature-copy h3 { font-size: 34px; }
   .feature-copy>p:not(.concept-label) { font-size: 14px; }
-  .knowledge-visual { padding-left: 25px; padding-right: 15px; }
   .flow-visual { padding-inline: 25px; }
   .flow-app { padding: 22px 17px; }
   .flow-state { display: none; }
@@ -206,18 +193,7 @@ body.dialog-open { overflow: hidden; }
   .feature-copy h3 { font-size: 34px; }
   .feature-copy>p:not(.concept-label) { font-size: 14px; max-width: 250px; }
   .concept-label { font-size: 11px; }
-  .knowledge-visual { padding: 27px 24px 0; }
-  .knowledge-app { padding: 16px; width: calc(100% + 15px); }
-  .app-question { font-size: 20px; margin-top: 18px; }
-  .app-subline { font-size: 9px; }
-  .knowledge-map { height: 160px; }
-  .map-label { font-size: 8px; padding: 4px; }
-  .map-center { top: 53%; }
-  .map-one { top: 17%; }
-  .map-two { top: 19%; }
-  .map-three { bottom: 13%; }
-  .map-four { bottom: 16%; }
-  .app-input { font-size: 8px; padding: 10px 12px; }
+  .cosmos-visual { margin: 27px 24px 0; }
   .flow-visual { padding: 26px 24px 0; }
   .flow-app { padding: 24px 17px; }
   .flow-app-top { font-size: 14px; }
