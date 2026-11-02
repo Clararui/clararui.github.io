@@ -12,3 +12,4 @@
 @media(max-width:370px){.hero h1{font-size:64px}.hero h1 .english{font-size:75px}.hero-flower{width:46px;height:46px;right:0;top:75px}.chapter-nav{gap:14px 17px}.chapter-nav>a{font-size:11px}.hero-actions{gap:17px}.hero-thought{font-size:15px}.project-body{padding-inline:19px}.knowledge-sketch,.workflow-sketch{padding-inline:12px}.mini-note{width:132px}.contact-top h2{font-size:30px}.contact-sticker{right:-8px}.contact-actions{max-width:230px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 .hero-description,.section-heading>p,.notes-list h3 { text-wrap:balance; }
+@media(max-width:760px){.contact-top h2{font-size:clamp(26px,8vw,34px);text-wrap:balance}}
