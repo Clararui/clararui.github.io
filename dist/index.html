@@ -193,6 +193,13 @@ footer h2{font-size:clamp(40px,6vw,88px);font-weight:800;line-height:1.2;max-wid
   .tiles{grid-template-columns:1fr}
   .deco{display:none}
 }
+@media (max-width:900px){
+  .no-avatar .hero-title{margin-top:4vh;margin-bottom:0;padding-bottom:0}
+  .no-avatar .stage{height:38vh;bottom:6vh}
+  .no-avatar .p-bubble{left:-26%;top:34%;width:46%}
+  .no-avatar .p-note1{right:-18%;top:2%;width:38%}
+  .no-avatar .p-note2{right:-24%;top:50%;width:40%}
+}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   .fi{opacity:1;transform:none}
